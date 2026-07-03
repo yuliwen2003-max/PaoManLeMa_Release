@@ -232,50 +232,74 @@
       text-align: center;
     }
 
-    .version-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 5px 14px;
-      border-radius: 999px;
-      background: rgba(34, 197, 94, 0.12);
-      border: 1px solid rgba(34, 197, 94, 0.3);
-      color: var(--accent-green);
-      font-size: 13px;
-      font-weight: 500;
-      margin-bottom: 20px;
+    .download-panel {
+      max-width: 340px;
+      margin: 0 auto;
+      padding: 22px 20px 20px;
+      border-radius: 20px;
+      background: linear-gradient(160deg, rgba(0, 212, 255, 0.1), rgba(168, 85, 247, 0.06));
+      border: 1px solid rgba(0, 212, 255, 0.22);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
     }
 
-    .version-badge .live-dot {
-      width: 7px; height: 7px;
-      border-radius: 50%;
-      background: var(--accent-green);
-      animation: pulse-ring 2s ease-in-out infinite;
-    }
-
-    .download-btn {
-      display: inline-flex;
+    .download-panel-header {
+      display: flex;
       align-items: center;
       justify-content: center;
       gap: 10px;
-      padding: 16px 36px;
-      border-radius: 16px;
+      margin-bottom: 16px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .download-panel-header .live-dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: var(--accent-green);
+      box-shadow: 0 0 8px rgba(34, 197, 94, 0.6);
+      flex-shrink: 0;
+      animation: pulse-ring 2s ease-in-out infinite;
+    }
+
+    .download-panel-header .version-label {
+      font-size: 13px;
+      color: var(--text-muted);
+      font-weight: 400;
+    }
+
+    .download-panel-header .version-name {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      background: linear-gradient(135deg, #fff 20%, var(--accent-cyan));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .download-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      padding: 15px 24px;
+      border-radius: 14px;
       background: linear-gradient(135deg, var(--accent-cyan), #0891b2);
       color: #0a0e1a;
-      font-size: 17px;
+      font-size: 16px;
       font-weight: 700;
       text-decoration: none;
       border: none;
       cursor: pointer;
       font-family: inherit;
       transition: transform 0.2s, box-shadow 0.2s, opacity 0.2s;
-      box-shadow: 0 8px 32px rgba(0, 212, 255, 0.35);
-      min-width: 240px;
+      box-shadow: 0 4px 20px rgba(0, 212, 255, 0.4);
     }
 
     .download-btn:hover:not(:disabled) {
       transform: translateY(-2px);
-      box-shadow: 0 12px 40px rgba(0, 212, 255, 0.45);
+      box-shadow: 0 8px 28px rgba(0, 212, 255, 0.5);
     }
 
     .download-btn:disabled {
@@ -283,15 +307,15 @@
       cursor: wait;
     }
 
-    .download-btn svg { width: 22px; height: 22px; fill: currentColor; }
+    .download-btn svg { width: 20px; height: 20px; fill: currentColor; flex-shrink: 0; }
 
     .download-meta {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 16px;
-      margin-top: 18px;
-      font-size: 13px;
+      gap: 12px;
+      margin-top: 14px;
+      font-size: 12px;
       color: var(--text-muted);
     }
 
@@ -330,7 +354,7 @@
       flex-wrap: wrap;
       justify-content: center;
       gap: 10px;
-      margin-top: 16px;
+      margin-top: 18px;
     }
 
     .secondary-btn {
@@ -549,18 +573,21 @@
       </div>
 
       <div id="readyState">
-        <div class="version-badge">
-          <span class="live-dot"></span>
-          最新版本 <span id="versionName">—</span>
-        </div>
-        <a class="download-btn" id="downloadBtn" href="#" download>
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
-          下载 APK
-        </a>
-        <div class="download-meta">
-          <span id="fileSize">—</span>
-          <span id="releaseDate">—</span>
-          <span id="fileName">app-release.apk</span>
+        <div class="download-panel">
+          <div class="download-panel-header">
+            <span class="live-dot" aria-hidden="true"></span>
+            <span class="version-label">最新版本</span>
+            <span class="version-name" id="versionName">—</span>
+          </div>
+          <a class="download-btn" id="downloadBtn" href="#" download>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+            下载 APK
+          </a>
+          <div class="download-meta">
+            <span id="fileSize">—</span>
+            <span id="releaseDate">—</span>
+            <span id="fileName">app-release.apk</span>
+          </div>
         </div>
         <div class="secondary-actions">
           <a class="secondary-btn" id="githubReleaseLink" href="https://github.com/yuliwen2003-max/PaoManLeMa_Release/releases" target="_blank" rel="noopener noreferrer">
