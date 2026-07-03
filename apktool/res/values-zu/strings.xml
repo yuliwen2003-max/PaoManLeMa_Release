@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Ukugcwalisa okuzenzakalelayo</string>
+    <string name="close_drawer">Vala imenyu yokuzulazula</string>
+    <string name="default_error_message">Okufakwayo okungalungile</string>
+    <string name="default_popup_window_title">Iwindi Lesikhashana</string>
+    <string name="in_progress">Kuyaqhubeka</string>
+    <string name="indeterminate">Kuhlolwe kancane</string>
+    <string name="m3c_dialog">Ibhokisi</string>
+    <string name="m3c_dropdown_menu_collapsed">Kugoqiwe</string>
+    <string name="m3c_dropdown_menu_expanded">Kunwetshiwe</string>
+    <string name="m3c_dropdown_menu_toggle">Guqula imenyu yokwehlayo</string>
+    <string name="navigation_menu">Imenyu yokuzulazula</string>
+    <string name="not_selected">Ayikhethiwe</string>
+    <string name="selected">Okukhethiwe</string>
+    <string name="state_empty">Akunalutho</string>
+    <string name="state_off">Ivaliwe</string>
+    <string name="state_on">Ivuliwe</string>
+    <string name="switch_role">Shintsha</string>
+    <string name="tab">Ithebhu</string>
+    <string name="template_percent">%1$d amaphesenti.</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">ຕື່ມຂໍ້ມູນອັດຕະໂນມັດ</string>
+    <string name="close_drawer">ປິດ​ເມ​ນູການ​ນຳ​ທາງ</string>
+    <string name="default_error_message">ຂໍ້ມູນທີ່ປ້ອນເຂົ້າບໍ່ຖືກຕ້ອງ</string>
+    <string name="default_popup_window_title">ໜ້າຈໍປັອບອັບ</string>
+    <string name="in_progress">ກຳ​ລັງ​ດຳ​ເນີນ​ການ</string>
+    <string name="indeterminate">ກວດສອບບາງສ່ວນແລ້ວ</string>
+    <string name="m3c_dialog">ກ່ອງໂຕ້ຕອບ</string>
+    <string name="m3c_dropdown_menu_collapsed">ຫຍໍ້ລົງແລ້ວ</string>
+    <string name="m3c_dropdown_menu_expanded">ຂະຫຍາຍແລ້ວ</string>
+    <string name="m3c_dropdown_menu_toggle">ສະ​ຫຼັບເມນູແບບເລື່ອນລົງ</string>
+    <string name="navigation_menu">ເມນູການນຳທາງ</string>
+    <string name="not_selected">ບໍ່ໄດ້ເລືອກ</string>
+    <string name="selected">ເລືອກແລ້ວ</string>
+    <string name="state_empty">ຫວ່າງເປົ່າ</string>
+    <string name="state_off">ປິດຢູ່</string>
+    <string name="state_on">ເປີດຢູ່</string>
+    <string name="switch_role">ປຸ່ມກົດ</string>
+    <string name="tab">ແຖບ</string>
+    <string name="template_percent">%1$d ເປີ​ເຊັນ.</string>
+</resources>

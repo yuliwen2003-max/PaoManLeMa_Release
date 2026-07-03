@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Autofyll</string>
+    <string name="close_drawer">Lukk navigasjonsmenyen</string>
+    <string name="default_error_message">Ugyldige inndata</string>
+    <string name="default_popup_window_title">Forgrunnsvindu</string>
+    <string name="in_progress">Pågår</string>
+    <string name="indeterminate">Delvis avmerket</string>
+    <string name="m3c_dialog">Dialogboks</string>
+    <string name="m3c_dropdown_menu_collapsed">Skjules</string>
+    <string name="m3c_dropdown_menu_expanded">Vises</string>
+    <string name="m3c_dropdown_menu_toggle">Slå rullegardinmeny av/på</string>
+    <string name="navigation_menu">Navigasjonsmeny</string>
+    <string name="not_selected">Ikke valgt</string>
+    <string name="selected">Valgt</string>
+    <string name="state_empty">Tom</string>
+    <string name="state_off">Av</string>
+    <string name="state_on">På</string>
+    <string name="switch_role">Bryter</string>
+    <string name="tab">Fane</string>
+    <string name="template_percent">%1$d prosent.</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">自动填充</string>
+    <string name="close_drawer">关闭导航菜单</string>
+    <string name="default_error_message">输入无效</string>
+    <string name="default_popup_window_title">弹出式窗口</string>
+    <string name="in_progress">进行中</string>
+    <string name="indeterminate">部分选中</string>
+    <string name="m3c_dialog">对话框</string>
+    <string name="m3c_dropdown_menu_collapsed">已收起</string>
+    <string name="m3c_dropdown_menu_expanded">已展开</string>
+    <string name="m3c_dropdown_menu_toggle">展开/收起下拉菜单</string>
+    <string name="navigation_menu">导航菜单</string>
+    <string name="not_selected">未选择</string>
+    <string name="selected">已选择</string>
+    <string name="state_empty">空白</string>
+    <string name="state_off">已关闭</string>
+    <string name="state_on">已开启</string>
+    <string name="switch_role">开关</string>
+    <string name="tab">标签页</string>
+    <string name="template_percent">百分之 %1$d。</string>
+    <string name="zxing_app_name">条码扫描器</string>
+    <string name="zxing_button_ok">确定</string>
+    <string name="zxing_msg_camera_framework_bug">抱歉，Android相机出现问题。您可能需要重启设备。</string>
+    <string name="zxing_msg_default_status">请将条码置于取景框内扫描。</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Автотолтыру</string>
+    <string name="close_drawer">Навигация мәзірін жабу</string>
+    <string name="default_error_message">Енгізілген мән жарамсыз.</string>
+    <string name="default_popup_window_title">Қалқымалы терезе</string>
+    <string name="in_progress">Орындалуда</string>
+    <string name="indeterminate">Жартылай белгіленді.</string>
+    <string name="m3c_dialog">Диалогтік терезе</string>
+    <string name="m3c_dropdown_menu_collapsed">Жиылды</string>
+    <string name="m3c_dropdown_menu_expanded">Жайылды</string>
+    <string name="m3c_dropdown_menu_toggle">Ашылмалы мәзірді жаю/жию</string>
+    <string name="navigation_menu">Навигация мәзірі</string>
+    <string name="not_selected">Таңдалмады</string>
+    <string name="selected">Таңдалды</string>
+    <string name="state_empty">Бос</string>
+    <string name="state_off">Өшірулі</string>
+    <string name="state_on">Қосулы</string>
+    <string name="switch_role">Ауысу</string>
+    <string name="tab">Қойынды</string>
+    <string name="template_percent">%1$d пайыз.</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Sjálfvirk útfylling</string>
+    <string name="close_drawer">Loka yfirlitsvalmynd</string>
+    <string name="default_error_message">Ógildur innsláttur</string>
+    <string name="default_popup_window_title">Sprettigluggi</string>
+    <string name="in_progress">Í vinnslu</string>
+    <string name="indeterminate">Hakað við að hluta til</string>
+    <string name="m3c_dialog">Gluggi</string>
+    <string name="m3c_dropdown_menu_collapsed">Minnkað</string>
+    <string name="m3c_dropdown_menu_expanded">Stækkað</string>
+    <string name="m3c_dropdown_menu_toggle">Velja eða afvelja fellivalmynd</string>
+    <string name="navigation_menu">Yfirlitsvalmynd</string>
+    <string name="not_selected">Ekki valið</string>
+    <string name="selected">Valið</string>
+    <string name="state_empty">Autt</string>
+    <string name="state_off">Slökkt</string>
+    <string name="state_on">Kveikt</string>
+    <string name="switch_role">Skipta</string>
+    <string name="tab">Flipi</string>
+    <string name="template_percent">%1$d prósent.</string>
+</resources>

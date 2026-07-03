@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">자동 완성</string>
+    <string name="close_drawer">탐색 메뉴 닫기</string>
+    <string name="default_error_message">입력이 잘못됨</string>
+    <string name="default_popup_window_title">팝업 창</string>
+    <string name="in_progress">진행 중</string>
+    <string name="indeterminate">일부 선택됨</string>
+    <string name="m3c_dialog">대화상자</string>
+    <string name="m3c_dropdown_menu_collapsed">접힘</string>
+    <string name="m3c_dropdown_menu_expanded">펼침</string>
+    <string name="m3c_dropdown_menu_toggle">전환 드롭다운 메뉴</string>
+    <string name="navigation_menu">탐색 메뉴</string>
+    <string name="not_selected">선택되지 않음</string>
+    <string name="selected">선택됨</string>
+    <string name="state_empty">비어 있음</string>
+    <string name="state_off">사용 안함</string>
+    <string name="state_on">사용</string>
+    <string name="switch_role">스위치</string>
+    <string name="tab">탭</string>
+    <string name="template_percent">%1$d퍼센트</string>
+    <string name="zxing_app_name">바코드 스캐너</string>
+    <string name="zxing_button_ok">확인</string>
+    <string name="zxing_msg_camera_framework_bug">죄송합니다. 기기의 카메라에 오류가 생겼습니다. 기기를 재시작 해야될 수도 있습니다.</string>
+    <string name="zxing_msg_default_status">바코드를 사각형 안에 비춰주세요.</string>
+</resources>

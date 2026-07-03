@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Avtomatik kiritish</string>
+    <string name="close_drawer">Navigatsiya menyusini yopish</string>
+    <string name="default_error_message">Kiritilgan axborot xato</string>
+    <string name="default_popup_window_title">Qalqib chiquvchi oyna</string>
+    <string name="in_progress">Bajarilmoqda</string>
+    <string name="indeterminate">Qisman belgilandi</string>
+    <string name="m3c_dialog">Muloqot oynasi</string>
+    <string name="m3c_dropdown_menu_collapsed">Yigʻilgan</string>
+    <string name="m3c_dropdown_menu_expanded">Yoyilgan</string>
+    <string name="m3c_dropdown_menu_toggle">Pastga ochiluvchi menyuni koʻrsatish/yashirish</string>
+    <string name="navigation_menu">Navigatsiya menyusi</string>
+    <string name="not_selected">Tanlanmagan</string>
+    <string name="selected">Tanlangan</string>
+    <string name="state_empty">Boʻsh</string>
+    <string name="state_off">Oʻchiq</string>
+    <string name="state_on">Yoniq</string>
+    <string name="switch_role">Almashtirish</string>
+    <string name="tab">Varaq</string>
+    <string name="template_percent">%1$d foiz.</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">آٹو فل</string>
+    <string name="close_drawer">نیویگیشن مینیو بند کریں</string>
+    <string name="default_error_message">غلط ان پٹ</string>
+    <string name="default_popup_window_title">پاپ اپ ونڈو</string>
+    <string name="in_progress">پیشرفت میں</string>
+    <string name="indeterminate">جزوی طور پر چیک کردہ</string>
+    <string name="m3c_dialog">ڈائلاگ</string>
+    <string name="m3c_dropdown_menu_collapsed">سکیڑا گیا</string>
+    <string name="m3c_dropdown_menu_expanded">پھیلایا گیا</string>
+    <string name="m3c_dropdown_menu_toggle">ڈراپ ڈاؤن مینیو کو ٹوگل کریں</string>
+    <string name="navigation_menu">نیویگیشن مینیو</string>
+    <string name="not_selected">غیر منتخب کردہ</string>
+    <string name="selected">منتخب کردہ</string>
+    <string name="state_empty">خالی ہے</string>
+    <string name="state_off">آف ہے</string>
+    <string name="state_on">آن ہے</string>
+    <string name="switch_role">سوئچ</string>
+    <string name="tab">ٹیب</string>
+    <string name="template_percent">%1$d فیصد۔</string>
+</resources>

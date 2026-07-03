@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Аўтазапаўненне</string>
+    <string name="close_drawer">Закрыць меню навігацыі</string>
+    <string name="default_error_message">Памылка ўводу</string>
+    <string name="default_popup_window_title">Усплывальнае акно</string>
+    <string name="in_progress">У працэсе</string>
+    <string name="indeterminate">Выбрана часткова</string>
+    <string name="m3c_dialog">Дыялогавае акно</string>
+    <string name="m3c_dropdown_menu_collapsed">Згорнута</string>
+    <string name="m3c_dropdown_menu_expanded">Разгорнута</string>
+    <string name="m3c_dropdown_menu_toggle">Уключыць (выключыць) выпадное меню</string>
+    <string name="navigation_menu">Меню навігацыі</string>
+    <string name="not_selected">Не выбрана</string>
+    <string name="selected">Выбрана</string>
+    <string name="state_empty">Змесціва няма</string>
+    <string name="state_off">Выключана</string>
+    <string name="state_on">Уключана</string>
+    <string name="switch_role">Пераключальнік</string>
+    <string name="tab">Укладка</string>
+    <string name="template_percent">Працэнтаў: %1$d.</string>
+</resources>

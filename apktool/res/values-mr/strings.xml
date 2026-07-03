@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">ऑटोफिल</string>
+    <string name="close_drawer">नेव्हिगेशन मेनू बंद करा</string>
+    <string name="default_error_message">इनपुट चुकीचे आहे</string>
+    <string name="default_popup_window_title">पॉप-अप विंडो</string>
+    <string name="in_progress">प्रगतीपथावर आहे</string>
+    <string name="indeterminate">अंशतः तपासले</string>
+    <string name="m3c_dialog">डायलॉग</string>
+    <string name="m3c_dropdown_menu_collapsed">कोलॅप्स केला आहे</string>
+    <string name="m3c_dropdown_menu_expanded">विस्तारित केला आहे</string>
+    <string name="m3c_dropdown_menu_toggle">ड्रॉपडाउन मेनू टॉगल करा</string>
+    <string name="navigation_menu">नेव्हिगेशन मेनू</string>
+    <string name="not_selected">निवडला नाही</string>
+    <string name="selected">निवडला</string>
+    <string name="state_empty">रिक्त</string>
+    <string name="state_off">बंद आहे</string>
+    <string name="state_on">सुरू आहे</string>
+    <string name="switch_role">स्विच</string>
+    <string name="tab">टॅब</string>
+    <string name="template_percent">%1$d टक्के.</string>
+</resources>

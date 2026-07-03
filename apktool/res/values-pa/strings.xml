@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">ਆਟੋਫਿਲ</string>
+    <string name="close_drawer">ਨੈਵੀਗੇਸ਼ਨ ਮੀਨੂ ਬੰਦ ਕਰੋ</string>
+    <string name="default_error_message">ਅਵੈਧ ਇਨਪੁੱਟ</string>
+    <string name="default_popup_window_title">ਪੌਪ-ਅੱਪ ਵਿੰਡੋ</string>
+    <string name="in_progress">ਜਾਰੀ ਹੈ</string>
+    <string name="indeterminate">ਅੰਸ਼ਕ ਤੌਰ ਤੇ ਜਾਂਚ ਕੀਤੀ ਗਈ</string>
+    <string name="m3c_dialog">ਡਾਇਲੌਗ</string>
+    <string name="m3c_dropdown_menu_collapsed">ਸਮੇਟਿਆ ਗਿਆ</string>
+    <string name="m3c_dropdown_menu_expanded">ਵਿਸਤਾਰ ਕੀਤਾ ਗਿਆ</string>
+    <string name="m3c_dropdown_menu_toggle">ਡ੍ਰੌਪ-ਡਾਊਨ ਮੀਨੂ ਨੂੰ ਟੌਗਲ ਕਰੋ</string>
+    <string name="navigation_menu">ਨੈਵੀਗੇਸ਼ਨ ਮੀਨੂ</string>
+    <string name="not_selected">ਚੁਣੀ ਨਹੀਂ ਗਈ</string>
+    <string name="selected">ਚੁਣੀ ਗਈ</string>
+    <string name="state_empty">ਖਾਲੀ</string>
+    <string name="state_off">ਬੰਦ ਹੈ</string>
+    <string name="state_on">ਚਾਲੂ ਹੈ</string>
+    <string name="switch_role">ਸਵਿੱਚ ਕਰੋ</string>
+    <string name="tab">ਟੈਬ</string>
+    <string name="template_percent">%1$d ਫ਼ੀਸਦ।</string>
+</resources>

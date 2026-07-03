@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Автоматаар бөглөх</string>
+    <string name="close_drawer">Навигацын цэсийг хаах</string>
+    <string name="default_error_message">Буруу оролт</string>
+    <string name="default_popup_window_title">Попап цонх</string>
+    <string name="in_progress">Үргэлжилж байна</string>
+    <string name="indeterminate">Хэсэгчлэн тэмдэглэсэн</string>
+    <string name="m3c_dialog">Харилцах цонх</string>
+    <string name="m3c_dropdown_menu_collapsed">Хураасан</string>
+    <string name="m3c_dropdown_menu_expanded">Дэлгэсэн</string>
+    <string name="m3c_dropdown_menu_toggle">Унадаг цэсийг асаах/унтраах</string>
+    <string name="navigation_menu">Навигацын цэс</string>
+    <string name="not_selected">Сонгоогүй</string>
+    <string name="selected">Сонгосон</string>
+    <string name="state_empty">Хоосон</string>
+    <string name="state_off">Унтраалттай</string>
+    <string name="state_on">Асаалттай</string>
+    <string name="switch_role">Сэлгэх</string>
+    <string name="tab">Таб</string>
+    <string name="template_percent">%1$d хувь.</string>
+</resources>

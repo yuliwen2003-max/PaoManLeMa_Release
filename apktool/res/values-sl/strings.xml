@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Samodejno izpolnjevanje</string>
+    <string name="close_drawer">Zapri meni za krmarjenje</string>
+    <string name="default_error_message">Neveljaven vnos</string>
+    <string name="default_popup_window_title">Pojavno okno</string>
+    <string name="in_progress">Poteka</string>
+    <string name="indeterminate">Delno potrjeno</string>
+    <string name="m3c_dialog">Pogovorno okno</string>
+    <string name="m3c_dropdown_menu_collapsed">Strnjeno</string>
+    <string name="m3c_dropdown_menu_expanded">Razširjeno</string>
+    <string name="m3c_dropdown_menu_toggle">Preklop spustnega menija</string>
+    <string name="navigation_menu">Meni za krmarjenje</string>
+    <string name="not_selected">Ni izbrano</string>
+    <string name="selected">Izbrano</string>
+    <string name="state_empty">Prazno</string>
+    <string name="state_off">Izklopljeno</string>
+    <string name="state_on">Vklopljeno</string>
+    <string name="switch_role">Stikalo</string>
+    <string name="tab">Zavihek</string>
+    <string name="template_percent">%1$d odstotkov</string>
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_ok">V redu</string>
+    <string name="zxing_msg_camera_framework_bug">Oprostite, Android kamera je naletela na težave. Mogoče boste morali ponovno zagnati napravo.</string>
+    <string name="zxing_msg_default_status">Za branje postavite črtno kodo znotraj iskala.</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">အော်တိုဖြည့်</string>
+    <string name="close_drawer">လမ်းညွှန် မီနူး ပိတ်ရန်</string>
+    <string name="default_error_message">ထည့်သွင်းမှု မမှန်ကန်ပါ</string>
+    <string name="default_popup_window_title">ပေါ့ပ်အပ် ဝင်းဒိုး</string>
+    <string name="in_progress">ဆောင်ရွက်နေဆဲ</string>
+    <string name="indeterminate">တစ်ဝက်တစ်ပျက် စစ်ဆေးထားသည်</string>
+    <string name="m3c_dialog">ဒိုင်ယာလော့</string>
+    <string name="m3c_dropdown_menu_collapsed">ချုံ့ထားသည်</string>
+    <string name="m3c_dropdown_menu_expanded">ချဲ့ထားသည်</string>
+    <string name="m3c_dropdown_menu_toggle">ဆွဲချမီနူးကို ပြောင်းရန်</string>
+    <string name="navigation_menu">လမ်းညွှန် မီနူး</string>
+    <string name="not_selected">ရွေးမထားပါ</string>
+    <string name="selected">ရွေးထားသည်</string>
+    <string name="state_empty">မရှိပါ</string>
+    <string name="state_off">ပိတ်</string>
+    <string name="state_on">ဖွင့်</string>
+    <string name="switch_role">ပြောင်းရန်</string>
+    <string name="tab">တဘ်</string>
+    <string name="template_percent">%1$d ရာခိုင်နှုန်း။</string>
+</resources>

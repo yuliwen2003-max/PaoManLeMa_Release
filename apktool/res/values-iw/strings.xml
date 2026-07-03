@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">מילוי אוטומטי</string>
+    <string name="close_drawer">סגירת תפריט הניווט</string>
+    <string name="default_error_message">הקלט לא תקין</string>
+    <string name="default_popup_window_title">חלון קופץ</string>
+    <string name="in_progress">בתהליך</string>
+    <string name="indeterminate">מסומנת חלקית</string>
+    <string name="m3c_dialog">תיבת דו-שיח</string>
+    <string name="m3c_dropdown_menu_collapsed">התפריט הנפתח מכווץ</string>
+    <string name="m3c_dropdown_menu_expanded">התפריט הנפתח מורחב</string>
+    <string name="m3c_dropdown_menu_toggle">החלפת המצב של התפריט הנפתח</string>
+    <string name="navigation_menu">תפריט הניווט</string>
+    <string name="not_selected">לא נבחר</string>
+    <string name="selected">נבחר</string>
+    <string name="state_empty">ריק</string>
+    <string name="state_off">מצב מושבת</string>
+    <string name="state_on">מצב פעיל</string>
+    <string name="switch_role">מתג</string>
+    <string name="tab">כרטיסייה</string>
+    <string name="template_percent">%1$d אחוזים.</string>
+    <string name="zxing_app_name">סורק ברקודים</string>
+    <string name="zxing_button_ok">אישור</string>
+    <string name="zxing_msg_camera_framework_bug">סליחה, מצלמת האנדרואיד נתקלה בבעיה. ייתכן שיהיה עליך להפעיל מחדש את המכשיר.</string>
+    <string name="zxing_msg_default_status">הצב ברקוד בתוך המלבן כדי לסרוק אותו.</string>
+</resources>

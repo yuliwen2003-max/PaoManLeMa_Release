@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Αυτόματη συμπλήρωση</string>
+    <string name="close_drawer">Κλείσιμο του μενού πλοήγησης</string>
+    <string name="default_error_message">Μη έγκυρη καταχώριση</string>
+    <string name="default_popup_window_title">Αναδυόμενο παράθυρο</string>
+    <string name="in_progress">Σε εξέλιξη</string>
+    <string name="indeterminate">Έγινε μερικός έλεγχος</string>
+    <string name="m3c_dialog">Παράθυρο διαλόγου</string>
+    <string name="m3c_dropdown_menu_collapsed">Συμπτυγμένο</string>
+    <string name="m3c_dropdown_menu_expanded">Αναπτυγμένο</string>
+    <string name="m3c_dropdown_menu_toggle">Εναλλαγή αναπτυσσόμενου μενού</string>
+    <string name="navigation_menu">Μενού πλοήγησης</string>
+    <string name="not_selected">Δεν έχει επιλεχθεί</string>
+    <string name="selected">Επιλεγμένο</string>
+    <string name="state_empty">Κενό</string>
+    <string name="state_off">Ανενεργός</string>
+    <string name="state_on">Ενεργός</string>
+    <string name="switch_role">Εναλλαγή</string>
+    <string name="tab">Καρτέλα</string>
+    <string name="template_percent">%1$d τοις εκατό.</string>
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Συγνώμη, προέκυψε ένα πρόβλημα με την κάμερα. Ίσως χρειαστεί να επανεκιννήσετε τη συσκευή.</string>
+    <string name="zxing_msg_default_status">Τοποθετήστε ένα barcode μέσα στο πλαίσιο για να το σκανάρετε.</string>
+</resources>

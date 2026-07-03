@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Emplena automàticament</string>
+    <string name="close_drawer">Tanca el menú de navegació</string>
+    <string name="default_error_message">"L'entrada no és vàlida"</string>
+    <string name="default_popup_window_title">Finestra emergent</string>
+    <string name="in_progress">En curs</string>
+    <string name="indeterminate">Marcat parcialment</string>
+    <string name="m3c_dialog">Quadre de diàleg</string>
+    <string name="m3c_dropdown_menu_collapsed">"S'ha replegat"</string>
+    <string name="m3c_dropdown_menu_expanded">"S'ha desplegat"</string>
+    <string name="m3c_dropdown_menu_toggle">Commuta el menú desplegable</string>
+    <string name="navigation_menu">Menú de navegació</string>
+    <string name="not_selected">No seleccionat</string>
+    <string name="selected">Seleccionat</string>
+    <string name="state_empty">Buit</string>
+    <string name="state_off">Desactivat</string>
+    <string name="state_on">Activat</string>
+    <string name="switch_role">Interruptor</string>
+    <string name="tab">Pestanya</string>
+    <string name="template_percent">%1$d per cent</string>
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_ok">"D'acord"</string>
+    <string name="zxing_msg_camera_framework_bug">"S'ha produït un problema amb la càmera de l'Android. Potser haureu de reiniciar el dispositiu."</string>
+    <string name="zxing_msg_default_status">Poseu un codi de barres dins el rectangle per escanejar-lo.</string>
+</resources>

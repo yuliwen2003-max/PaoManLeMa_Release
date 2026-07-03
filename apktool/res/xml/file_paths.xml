@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cache-path name="shared_configs" path="shared_configs/" />
+    <cache-path name="updates" path="updates/" />
+    <cache-path name="crash_exports" path="crash_exports/" />
+    <files-path name="crash_logs" path="crash_logs/" />
+    <external-files-path name="downloads" path="Download/" />
+</paths>

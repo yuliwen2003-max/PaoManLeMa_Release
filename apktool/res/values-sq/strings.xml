@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Plotësimi automatik</string>
+    <string name="close_drawer">Mbyll menynë e navigimit</string>
+    <string name="default_error_message">Hyrje e pavlefshme</string>
+    <string name="default_popup_window_title">Dritare kërcyese</string>
+    <string name="in_progress">Në vazhdim</string>
+    <string name="indeterminate">Pjesërisht e shënuar</string>
+    <string name="m3c_dialog">Dialogu</string>
+    <string name="m3c_dropdown_menu_collapsed">Palosur</string>
+    <string name="m3c_dropdown_menu_expanded">Zgjeruar</string>
+    <string name="m3c_dropdown_menu_toggle">Zgjero/palos menynë me lëshim poshtë</string>
+    <string name="navigation_menu">Menyja e navigimit</string>
+    <string name="not_selected">Nuk është zgjedhur</string>
+    <string name="selected">Zgjedhur</string>
+    <string name="state_empty">Bosh</string>
+    <string name="state_off">Joaktiv</string>
+    <string name="state_on">Aktiv</string>
+    <string name="switch_role">Ndërro</string>
+    <string name="tab">Tab</string>
+    <string name="template_percent">%1$d për qind.</string>
+</resources>

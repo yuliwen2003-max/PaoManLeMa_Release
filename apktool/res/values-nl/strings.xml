@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Automatisch invullen</string>
+    <string name="close_drawer">Navigatiemenu sluiten</string>
+    <string name="default_error_message">Ongeldige invoer</string>
+    <string name="default_popup_window_title">Pop-upvenster</string>
+    <string name="in_progress">Bezig</string>
+    <string name="indeterminate">Gedeeltelijk aangevinkt</string>
+    <string name="m3c_dialog">Dialoogvenster</string>
+    <string name="m3c_dropdown_menu_collapsed">Samengevouwen</string>
+    <string name="m3c_dropdown_menu_expanded">Uitgevouwen</string>
+    <string name="m3c_dropdown_menu_toggle">Dropdownmenu aan-/uitzetten</string>
+    <string name="navigation_menu">Navigatiemenu</string>
+    <string name="not_selected">Niet geselecteerd</string>
+    <string name="selected">Geselecteerd</string>
+    <string name="state_empty">Leeg</string>
+    <string name="state_off">Uit</string>
+    <string name="state_on">Aan</string>
+    <string name="switch_role">Overschakelen</string>
+    <string name="tab">Tabblad</string>
+    <string name="template_percent">%1$d procent.</string>
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Sorry, er is een probleem met de Android-camera. Probeer je telefoon opnieuw op te starten.</string>
+    <string name="zxing_msg_default_status">Plaats een barcode binnen de rechthoek om deze te scannen.</string>
+</resources>

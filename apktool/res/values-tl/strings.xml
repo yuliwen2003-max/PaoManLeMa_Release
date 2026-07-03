@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Autofill</string>
+    <string name="close_drawer">Isara ang menu ng navigation</string>
+    <string name="default_error_message">Invalid na input</string>
+    <string name="default_popup_window_title">Window ng Pop-Up</string>
+    <string name="in_progress">Isinasagawa</string>
+    <string name="indeterminate">Bahagyang may check</string>
+    <string name="m3c_dialog">Dialog</string>
+    <string name="m3c_dropdown_menu_collapsed">Naka-collapse</string>
+    <string name="m3c_dropdown_menu_expanded">Naka-expand</string>
+    <string name="m3c_dropdown_menu_toggle">I-toggle ang dropdown menu</string>
+    <string name="navigation_menu">Menu ng navigation</string>
+    <string name="not_selected">Hindi napili</string>
+    <string name="selected">Napili</string>
+    <string name="state_empty">Walang laman</string>
+    <string name="state_off">Naka-off</string>
+    <string name="state_on">Naka-on</string>
+    <string name="switch_role">Lumipat</string>
+    <string name="tab">Tab</string>
+    <string name="template_percent">%1$d (na) porsyento.</string>
+</resources>

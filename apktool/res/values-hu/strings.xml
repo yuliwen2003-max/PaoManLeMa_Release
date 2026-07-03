@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Automatikus kitöltés</string>
+    <string name="close_drawer">Navigációs menü bezárása</string>
+    <string name="default_error_message">Érvénytelen adat</string>
+    <string name="default_popup_window_title">Előugró ablak</string>
+    <string name="in_progress">Folyamatban</string>
+    <string name="indeterminate">Részlegesen ellenőrizve</string>
+    <string name="m3c_dialog">Párbeszédpanel</string>
+    <string name="m3c_dropdown_menu_collapsed">Összecsukva</string>
+    <string name="m3c_dropdown_menu_expanded">Kibontva</string>
+    <string name="m3c_dropdown_menu_toggle">Legördülő menü átváltása</string>
+    <string name="navigation_menu">Navigációs menü</string>
+    <string name="not_selected">Nincs kijelölve</string>
+    <string name="selected">Kijelölve</string>
+    <string name="state_empty">Üres</string>
+    <string name="state_off">Ki</string>
+    <string name="state_on">Be</string>
+    <string name="switch_role">Kapcsoló</string>
+    <string name="tab">Lap</string>
+    <string name="template_percent">%1$d százalék.</string>
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Android kamera hiba. Lehet, hogy újra kell indítania a készüléket.</string>
+    <string name="zxing_msg_default_status">Pozícionálja a vonalkódot a kereső téglalapba a szkenneléshez.</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Preencher automaticamente</string>
+    <string name="close_drawer">Fechar menu de navegação</string>
+    <string name="default_error_message">Entrada inválida</string>
+    <string name="default_popup_window_title">Janela pop-up</string>
+    <string name="in_progress">Em curso</string>
+    <string name="indeterminate">Parcialmente selecionada</string>
+    <string name="m3c_dialog">Caixa de diálogo</string>
+    <string name="m3c_dropdown_menu_collapsed">Reduzido</string>
+    <string name="m3c_dropdown_menu_expanded">Expandido</string>
+    <string name="m3c_dropdown_menu_toggle">Ativar/desativar menu pendente</string>
+    <string name="navigation_menu">Menu de navegação</string>
+    <string name="not_selected">Não selecionado</string>
+    <string name="selected">Selecionado</string>
+    <string name="state_empty">Vazio</string>
+    <string name="state_off">Desativado</string>
+    <string name="state_on">Ativado</string>
+    <string name="switch_role">Mudar</string>
+    <string name="tab">Separador</string>
+    <string name="template_percent">%1$d por cento.</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Автоматично попълване</string>
+    <string name="close_drawer">Затваряне на менюто за навигация</string>
+    <string name="default_error_message">Въведеното е невалидно</string>
+    <string name="default_popup_window_title">Изскачащ прозорец</string>
+    <string name="in_progress">В ход</string>
+    <string name="indeterminate">Частично отметнато</string>
+    <string name="m3c_dialog">Диалогов прозорец</string>
+    <string name="m3c_dropdown_menu_collapsed">Свито</string>
+    <string name="m3c_dropdown_menu_expanded">Разгънато</string>
+    <string name="m3c_dropdown_menu_toggle">Превключване на падащото меню</string>
+    <string name="navigation_menu">Меню за навигация</string>
+    <string name="not_selected">Не е избрано</string>
+    <string name="selected">Избрано</string>
+    <string name="state_empty">Празно</string>
+    <string name="state_off">Изключено</string>
+    <string name="state_on">Включено</string>
+    <string name="switch_role">Превключване</string>
+    <string name="tab">Раздел</string>
+    <string name="template_percent">%1$d процента.</string>
+    <string name="zxing_app_name">Баркод Скенер</string>
+    <string name="zxing_button_ok">ОК</string>
+    <string name="zxing_msg_camera_framework_bug">Съжаляваме, срещнахме проблем с камерата. Може да се наложи да рестартирате устройството си.</string>
+    <string name="zxing_msg_default_status">Сложете баркода вътре в правоъгълника за да го сканирате.</string>
+</resources>

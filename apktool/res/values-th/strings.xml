@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">ป้อนข้อความอัตโนมัติ</string>
+    <string name="close_drawer">ปิดเมนูการนำทาง</string>
+    <string name="default_error_message">อินพุตไม่ถูกต้อง</string>
+    <string name="default_popup_window_title">หน้าต่างป๊อปอัป</string>
+    <string name="in_progress">กำลังดำเนินการ</string>
+    <string name="indeterminate">เลือกบางส่วน</string>
+    <string name="m3c_dialog">กล่องโต้ตอบ</string>
+    <string name="m3c_dropdown_menu_collapsed">ยุบแล้ว</string>
+    <string name="m3c_dropdown_menu_expanded">ขยายแล้ว</string>
+    <string name="m3c_dropdown_menu_toggle">เปิด/ปิดเมนูแบบเลื่อนลง</string>
+    <string name="navigation_menu">เมนูการนำทาง</string>
+    <string name="not_selected">ไม่ได้เลือก</string>
+    <string name="selected">เลือกไว้</string>
+    <string name="state_empty">ว่าง</string>
+    <string name="state_off">ปิดอยู่</string>
+    <string name="state_on">เปิดอยู่</string>
+    <string name="switch_role">เปลี่ยน</string>
+    <string name="tab">แท็บ</string>
+    <string name="template_percent">%1$d เปอร์เซ็นต์</string>
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_ok">ตกลง</string>
+    <string name="zxing_msg_camera_framework_bug">ขออภัย พบปัญหาของกล้อง Android คุณอาจจะต้องรีสตาร์ทอุปกรณ์</string>
+    <string name="zxing_msg_default_status">วางบาร์โค้ดภายในสี่เหลี่ยมผืนผ้าที่ช่องมองภาพเพื่อสแกน</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DialogWindowTheme">
+        <item name="android:windowClipToOutline">false</item>
+    </style>
+    <style name="FloatingDialogWindowTheme">
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowClipToOutline">false</item>
+    </style>
+    <style name="Theme.SpeedTest" parent="@android:style/Theme.Material.Light.NoActionBar" />
+    <style name="zxing_CaptureTheme" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+</resources>

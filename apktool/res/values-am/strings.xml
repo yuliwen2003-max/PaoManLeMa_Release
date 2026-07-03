@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">ራስ-ሙላ</string>
+    <string name="close_drawer">የዳሰሳ ምናሌን ዝጋ</string>
+    <string name="default_error_message">ልክ ያልሆነ ግቤት</string>
+    <string name="default_popup_window_title">ብቅ-ባይ መስኮት</string>
+    <string name="in_progress">በሂደት ላይ</string>
+    <string name="indeterminate">በከፊል የተፈተሸ</string>
+    <string name="m3c_dialog">መገናኛ</string>
+    <string name="m3c_dropdown_menu_collapsed">ተሰብስቧል</string>
+    <string name="m3c_dropdown_menu_expanded">ተዘርግቷል</string>
+    <string name="m3c_dropdown_menu_toggle">ተቆልቋይ ምናሌ ይቀያይሩ</string>
+    <string name="navigation_menu">የዳሰሳ ምናሌ</string>
+    <string name="not_selected">ያልተመረጡ</string>
+    <string name="selected">ተመርጧል</string>
+    <string name="state_empty">ባዶ</string>
+    <string name="state_off">ጠፍቷል</string>
+    <string name="state_on">በርቷል</string>
+    <string name="switch_role">ማብሪያ/ማጥፊያ</string>
+    <string name="tab">ትር</string>
+    <string name="template_percent">%1$d በመቶ።</string>
+</resources>

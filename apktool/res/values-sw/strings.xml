@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Jaza kiotomatiki</string>
+    <string name="close_drawer">Funga menyu ya kusogeza</string>
+    <string name="default_error_message">Ulichoweka si sahihi</string>
+    <string name="default_popup_window_title">Dirisha Ibukizi</string>
+    <string name="in_progress">Inaendelea</string>
+    <string name="indeterminate">Imekaguliwa kwa kiasi fulani</string>
+    <string name="m3c_dialog">Kidirisha</string>
+    <string name="m3c_dropdown_menu_collapsed">Imekunjwa</string>
+    <string name="m3c_dropdown_menu_expanded">Imepanuliwa</string>
+    <string name="m3c_dropdown_menu_toggle">Badilisha hali ya menyu kunjuzi</string>
+    <string name="navigation_menu">Menyu ya kusogeza</string>
+    <string name="not_selected">Hujachagua</string>
+    <string name="selected">Umechagua</string>
+    <string name="state_empty">Tupu</string>
+    <string name="state_off">Imezimwa</string>
+    <string name="state_on">Imewashwa</string>
+    <string name="switch_role">Swichi</string>
+    <string name="tab">Kichupo</string>
+    <string name="template_percent">Asilimia %1$d.</string>
+</resources>

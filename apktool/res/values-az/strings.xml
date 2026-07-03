@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Avto-doldurma</string>
+    <string name="close_drawer">Naviqasiya menyusunu bağlayın</string>
+    <string name="default_error_message">Yanlış daxiletmə</string>
+    <string name="default_popup_window_title">Popap Pəncərəsi</string>
+    <string name="in_progress">Davam edir</string>
+    <string name="indeterminate">Qismən yoxlanıb</string>
+    <string name="m3c_dialog">Dialoq</string>
+    <string name="m3c_dropdown_menu_collapsed">Yığcamlaşdırılıb</string>
+    <string name="m3c_dropdown_menu_expanded">Genişləndirilb</string>
+    <string name="m3c_dropdown_menu_toggle">Aşağı açılan menyunu aktiv/deaktiv edin</string>
+    <string name="navigation_menu">Naviqasiya menyusu</string>
+    <string name="not_selected">Seçilməyib</string>
+    <string name="selected">Seçilib</string>
+    <string name="state_empty">Boş</string>
+    <string name="state_off">Deaktiv</string>
+    <string name="state_on">Aktiv</string>
+    <string name="switch_role">Dəyişdirin</string>
+    <string name="tab">Tab</string>
+    <string name="template_percent">%1$d faiz.</string>
+</resources>

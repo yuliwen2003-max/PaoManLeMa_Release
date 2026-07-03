@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Completare automată</string>
+    <string name="close_drawer">Închide meniul de navigare</string>
+    <string name="default_error_message">Intrare nevalidă</string>
+    <string name="default_popup_window_title">Fereastră pop-up</string>
+    <string name="in_progress">În curs</string>
+    <string name="indeterminate">Bifată parțial</string>
+    <string name="m3c_dialog">Dialog</string>
+    <string name="m3c_dropdown_menu_collapsed">Restrâns</string>
+    <string name="m3c_dropdown_menu_expanded">Extins</string>
+    <string name="m3c_dropdown_menu_toggle">Comută meniul drop-down</string>
+    <string name="navigation_menu">Meniu de navigare</string>
+    <string name="not_selected">Neselectat</string>
+    <string name="selected">Selectat</string>
+    <string name="state_empty">Gol</string>
+    <string name="state_off">Dezactivat</string>
+    <string name="state_on">Activat</string>
+    <string name="switch_role">Comută</string>
+    <string name="tab">Filă</string>
+    <string name="template_percent">%1$d %%.</string>
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_ok">Acceptă</string>
+    <string name="zxing_msg_camera_framework_bug">Probleme cu camera foto. Repornește dispozitivul.</string>
+    <string name="zxing_msg_default_status">Plasează codul de bare în interiorul vizorului pentru a-l scana</string>
+</resources>

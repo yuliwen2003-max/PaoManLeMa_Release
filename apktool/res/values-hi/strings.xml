@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">ऑटोमैटिक तरीके से भरें</string>
+    <string name="close_drawer">नेविगेशन मेन्यू बंद करें</string>
+    <string name="default_error_message">अमान्य इनपुट</string>
+    <string name="default_popup_window_title">पॉप-अप विंडो</string>
+    <string name="in_progress">जारी है</string>
+    <string name="indeterminate">कुछ विकल्पों को चुना गया</string>
+    <string name="m3c_dialog">डायलॉग</string>
+    <string name="m3c_dropdown_menu_collapsed">छोटा किया गया</string>
+    <string name="m3c_dropdown_menu_expanded">बड़ा किया गया</string>
+    <string name="m3c_dropdown_menu_toggle">ड्रॉपडाउन मेन्यू टॉगल करें</string>
+    <string name="navigation_menu">नेविगेशन मेन्यू</string>
+    <string name="not_selected">नहीं चुना गया</string>
+    <string name="selected">चुना गया</string>
+    <string name="state_empty">कोई भी तार नहीं लगा है</string>
+    <string name="state_off">बंद है</string>
+    <string name="state_on">चालू है</string>
+    <string name="switch_role">स्विच करें</string>
+    <string name="tab">टैब</string>
+    <string name="template_percent">%1$d प्रतिशत.</string>
+    <string name="zxing_app_name">बारकोड स्कैनर</string>
+    <string name="zxing_button_ok">ठीक है</string>
+    <string name="zxing_msg_camera_framework_bug">क्षमा करें, Android कैमरा एक समस्या का सामना करना पड़ा. आप डिवाइस को पुनरारंभ करने की आवश्यकता हो सकती है.</string>
+    <string name="zxing_msg_default_status">दृश्यदर्शी आयत के अंदर एक बारकोड प्लेस इसे स्कैन.</string>
+</resources>

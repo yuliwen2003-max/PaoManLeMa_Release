@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Automaattäide</string>
+    <string name="close_drawer">Sule navigeerimismenüü</string>
+    <string name="default_error_message">Sobimatu sisend</string>
+    <string name="default_popup_window_title">Hüpikaken</string>
+    <string name="in_progress">Pooleli</string>
+    <string name="indeterminate">Osaliselt märgitud</string>
+    <string name="m3c_dialog">Dialoog</string>
+    <string name="m3c_dropdown_menu_collapsed">Ahendatud</string>
+    <string name="m3c_dropdown_menu_expanded">Laiendatud</string>
+    <string name="m3c_dropdown_menu_toggle">Rippmenüü lülitamine</string>
+    <string name="navigation_menu">Navigeerimismenüü</string>
+    <string name="not_selected">Pole valitud</string>
+    <string name="selected">Valitud</string>
+    <string name="state_empty">Tühi</string>
+    <string name="state_off">Väljas</string>
+    <string name="state_on">Sees</string>
+    <string name="switch_role">Lüliti</string>
+    <string name="tab">Vaheleht</string>
+    <string name="template_percent">%1$d protsenti.</string>
+</resources>

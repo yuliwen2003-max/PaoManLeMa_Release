@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Автоматско пополнување</string>
+    <string name="close_drawer">Затворете го менито за навигација</string>
+    <string name="default_error_message">Неважечки запис</string>
+    <string name="default_popup_window_title">Скокачки прозорец</string>
+    <string name="in_progress">Во тек</string>
+    <string name="indeterminate">Делумно проверено</string>
+    <string name="m3c_dialog">Дијалог</string>
+    <string name="m3c_dropdown_menu_collapsed">Собрано</string>
+    <string name="m3c_dropdown_menu_expanded">Проширено</string>
+    <string name="m3c_dropdown_menu_toggle">Вклучување/исклучување паѓачко мени</string>
+    <string name="navigation_menu">Мени за навигација</string>
+    <string name="not_selected">Не е избрано</string>
+    <string name="selected">Избрано</string>
+    <string name="state_empty">Празно</string>
+    <string name="state_off">Исклучено</string>
+    <string name="state_on">Вклучено</string>
+    <string name="switch_role">Прекинувач</string>
+    <string name="tab">Картичка</string>
+    <string name="template_percent">%1$d проценти.</string>
+</resources>

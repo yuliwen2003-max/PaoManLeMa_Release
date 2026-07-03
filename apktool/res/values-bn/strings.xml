@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">অটোফিল</string>
+    <string name="close_drawer">নেভিগেশন মেনু বন্ধ করুন</string>
+    <string name="default_error_message">ভুল ইনপুট</string>
+    <string name="default_popup_window_title">পপ-আপ উইন্ডো</string>
+    <string name="in_progress">কাজ চলছে</string>
+    <string name="indeterminate">কয়েকটি বিকল্প বেছে নেওয়া হয়েছে</string>
+    <string name="m3c_dialog">ডায়ালগ</string>
+    <string name="m3c_dropdown_menu_collapsed">আড়াল করা হয়েছে</string>
+    <string name="m3c_dropdown_menu_expanded">বড় করা হয়েছে</string>
+    <string name="m3c_dropdown_menu_toggle">ড্রপডাউন মেনু টগল করুন</string>
+    <string name="navigation_menu">নেভিগেশন মেনু</string>
+    <string name="not_selected">বেছে নেওয়া হয়নি</string>
+    <string name="selected">বেছে নেওয়া হয়েছে</string>
+    <string name="state_empty">ফাঁকা</string>
+    <string name="state_off">বন্ধ আছে</string>
+    <string name="state_on">চালু আছে</string>
+    <string name="switch_role">সুইচ</string>
+    <string name="tab">ট্যাব</string>
+    <string name="template_percent">%1$d শতাংশ।</string>
+</resources>

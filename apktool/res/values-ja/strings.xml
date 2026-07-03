@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">自動入力</string>
+    <string name="close_drawer">ナビゲーションメニューを閉じる</string>
+    <string name="default_error_message">入力値が無効です</string>
+    <string name="default_popup_window_title">ポップアップウィンドウ</string>
+    <string name="in_progress">処理しています</string>
+    <string name="indeterminate">一部 ON</string>
+    <string name="m3c_dialog">ダイアログ</string>
+    <string name="m3c_dropdown_menu_collapsed">閉じています</string>
+    <string name="m3c_dropdown_menu_expanded">開いています</string>
+    <string name="m3c_dropdown_menu_toggle">プルダウン メニューを切り替えます</string>
+    <string name="navigation_menu">ナビゲーションメニュー</string>
+    <string name="not_selected">未選択</string>
+    <string name="selected">選択済み</string>
+    <string name="state_empty">なし</string>
+    <string name="state_off">OFF</string>
+    <string name="state_on">ON</string>
+    <string name="switch_role">切り替える</string>
+    <string name="tab">タブ</string>
+    <string name="template_percent">%1$dパーセント。</string>
+    <string name="zxing_app_name">QRコードスキャナー</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Androidのカメラに問題が発生しました。デバイスを再起動する必要があります。</string>
+    <string name="zxing_msg_default_status">QRコードを画面の読み取り範囲内に写すとスキャンします。</string>
+</resources>

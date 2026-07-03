@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Autolengkap</string>
+    <string name="close_drawer">Tutup menu navigasi</string>
+    <string name="default_error_message">Input tidak sah</string>
+    <string name="default_popup_window_title">Tetingkap Timbul</string>
+    <string name="in_progress">Dalam proses</string>
+    <string name="indeterminate">Sebahagiannya ditandai</string>
+    <string name="m3c_dialog">Dialog</string>
+    <string name="m3c_dropdown_menu_collapsed">Dikuncupkan</string>
+    <string name="m3c_dropdown_menu_expanded">Dikembangkan</string>
+    <string name="m3c_dropdown_menu_toggle">Togol menu lungsur</string>
+    <string name="navigation_menu">Menu navigasi</string>
+    <string name="not_selected">Tidak dipilih</string>
+    <string name="selected">Dipilih</string>
+    <string name="state_empty">Kosong</string>
+    <string name="state_off">Mati</string>
+    <string name="state_on">Hidup</string>
+    <string name="switch_role">Tukar</string>
+    <string name="tab">Tab</string>
+    <string name="template_percent">Peratus %1$d.</string>
+</resources>

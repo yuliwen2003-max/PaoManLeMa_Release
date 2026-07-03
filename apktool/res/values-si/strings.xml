@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">ස්වයං පිරවුම</string>
+    <string name="close_drawer">සංචාලන මෙනුව වසන්න</string>
+    <string name="default_error_message">වලංගු නොවන ආදානයකි</string>
+    <string name="default_popup_window_title">උත්පතන කවුළුව</string>
+    <string name="in_progress">ප්‍රගතියේ පවතී</string>
+    <string name="indeterminate">අඩ වශයෙන් ලකුණු කළ</string>
+    <string name="m3c_dialog">සංවාදය</string>
+    <string name="m3c_dropdown_menu_collapsed">හකුළන ලදි</string>
+    <string name="m3c_dropdown_menu_expanded">දිග හරින ලදි</string>
+    <string name="m3c_dropdown_menu_toggle">පතන මෙනුව ටොගල් කරන්න</string>
+    <string name="navigation_menu">සංචාලන මෙනුව</string>
+    <string name="not_selected">තෝරා නැත</string>
+    <string name="selected">තෝරන ලදි</string>
+    <string name="state_empty">හිස්</string>
+    <string name="state_off">ක්‍රියාවිරහිතයි</string>
+    <string name="state_on">ක්‍රියාත්මකයි</string>
+    <string name="switch_role">මාරු කරන්න</string>
+    <string name="tab">ටැබය</string>
+    <string name="template_percent">සියයට %1$d.</string>
+</resources>

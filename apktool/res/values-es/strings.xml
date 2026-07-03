@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Autocompletar</string>
+    <string name="close_drawer">Cerrar menú de navegación</string>
+    <string name="default_error_message">Entrada no válida</string>
+    <string name="default_popup_window_title">Ventana emergente</string>
+    <string name="in_progress">En curso</string>
+    <string name="indeterminate">Marcado parcialmente</string>
+    <string name="m3c_dialog">Cuadro de diálogo</string>
+    <string name="m3c_dropdown_menu_collapsed">Contraído</string>
+    <string name="m3c_dropdown_menu_expanded">Desplegado</string>
+    <string name="m3c_dropdown_menu_toggle">Mostrar/ocultar menú desplegable</string>
+    <string name="navigation_menu">Menú de navegación</string>
+    <string name="not_selected">No seleccionado</string>
+    <string name="selected">Seleccionado</string>
+    <string name="state_empty">Vacío</string>
+    <string name="state_off">Desactivado</string>
+    <string name="state_on">Activado</string>
+    <string name="switch_role">Interruptor</string>
+    <string name="tab">Pestaña</string>
+    <string name="template_percent">%1$d por cien.</string>
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Lo sentimos, la cámara de Android ha encontrado un problema. Es posible que necesite reiniciar el dispositivo.</string>
+    <string name="zxing_msg_default_status">Coloque un código de barras en el interior del rectángulo del visor para escanear.</string>
+</resources>

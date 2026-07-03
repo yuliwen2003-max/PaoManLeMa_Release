@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">تکمیل خودکار</string>
+    <string name="close_drawer">بستن منوی پیمایش</string>
+    <string name="default_error_message">ورودی نامعتبر</string>
+    <string name="default_popup_window_title">پنجره بالاپر</string>
+    <string name="in_progress">درحال انجام</string>
+    <string name="indeterminate">ناقص علامت زده‌شده</string>
+    <string name="m3c_dialog">کادر گفتگو</string>
+    <string name="m3c_dropdown_menu_collapsed">جمع شد</string>
+    <string name="m3c_dropdown_menu_expanded">ازهم باز شد</string>
+    <string name="m3c_dropdown_menu_toggle">جمع کردن/ ازهم باز کردن منوِ کرکره‌ای</string>
+    <string name="navigation_menu">منوی پیمایش</string>
+    <string name="not_selected">انتخاب‌نشده</string>
+    <string name="selected">انتخاب شد</string>
+    <string name="state_empty">خالی</string>
+    <string name="state_off">خاموش</string>
+    <string name="state_on">روشن</string>
+    <string name="switch_role">کلید</string>
+    <string name="tab">برگه</string>
+    <string name="template_percent">%1$d درصد.</string>
+</resources>

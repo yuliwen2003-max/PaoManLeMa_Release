@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Automatické dopĺňanie</string>
+    <string name="close_drawer">Zavrieť navigačnú ponuku</string>
+    <string name="default_error_message">Neplatný vstup</string>
+    <string name="default_popup_window_title">Vyskakovacie okno</string>
+    <string name="in_progress">Prebieha</string>
+    <string name="indeterminate">Čiastočne začiarknuté</string>
+    <string name="m3c_dialog">Dialógové okno</string>
+    <string name="m3c_dropdown_menu_collapsed">Zbalené</string>
+    <string name="m3c_dropdown_menu_expanded">Rozbalené</string>
+    <string name="m3c_dropdown_menu_toggle">Prepnutie rozbaľovacieho zoznamu</string>
+    <string name="navigation_menu">Navigačná ponuka</string>
+    <string name="not_selected">Nevybrané</string>
+    <string name="selected">Vybrané</string>
+    <string name="state_empty">Prázdne</string>
+    <string name="state_off">Vypnuté</string>
+    <string name="state_on">Zapnuté</string>
+    <string name="switch_role">Prepnúť</string>
+    <string name="tab">Karta</string>
+    <string name="template_percent">%1$d %%</string>
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Ospravedlňujeme sa, fotoaparát narazil na problém. Možno bude potrebné reštartovať zariadenie.</string>
+    <string name="zxing_msg_default_status">Umiestnite čiarový kód do vnútra obdĺžnika hľadáčiku pre skenovanie</string>
+</resources>

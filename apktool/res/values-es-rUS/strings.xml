@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Autocompletar</string>
+    <string name="close_drawer">Cerrar el menú de navegación</string>
+    <string name="default_error_message">Entrada no válida</string>
+    <string name="default_popup_window_title">Ventana emergente</string>
+    <string name="in_progress">En curso</string>
+    <string name="indeterminate">Verificado parcialmente</string>
+    <string name="m3c_dialog">Diálogo</string>
+    <string name="m3c_dropdown_menu_collapsed">Contraído</string>
+    <string name="m3c_dropdown_menu_expanded">Expandido</string>
+    <string name="m3c_dropdown_menu_toggle">Activar o desactivar menú desplegable</string>
+    <string name="navigation_menu">Menú de navegación</string>
+    <string name="not_selected">Sin seleccionar</string>
+    <string name="selected">Seleccionado</string>
+    <string name="state_empty">Vacío</string>
+    <string name="state_off">Desactivado</string>
+    <string name="state_on">Activado</string>
+    <string name="switch_role">Cambiar</string>
+    <string name="tab">Pestaña</string>
+    <string name="template_percent">%1$d por ciento.</string>
+</resources>

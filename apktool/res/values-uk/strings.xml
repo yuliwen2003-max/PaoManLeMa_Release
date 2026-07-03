@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Автозаповнення</string>
+    <string name="close_drawer">Закрити меню навігації</string>
+    <string name="default_error_message">Введено недійсні дані</string>
+    <string name="default_popup_window_title">Спливаюче вікно</string>
+    <string name="in_progress">Виконується</string>
+    <string name="indeterminate">Частково вибрано</string>
+    <string name="m3c_dialog">Вікно</string>
+    <string name="m3c_dropdown_menu_collapsed">Згорнуто</string>
+    <string name="m3c_dropdown_menu_expanded">Розгорнуто</string>
+    <string name="m3c_dropdown_menu_toggle">Згорнути або розгорнути спадне меню</string>
+    <string name="navigation_menu">Меню навігації</string>
+    <string name="not_selected">Не вибрано</string>
+    <string name="selected">Вибрано</string>
+    <string name="state_empty">Пусто</string>
+    <string name="state_off">Вимкнено</string>
+    <string name="state_on">Увімкнено</string>
+    <string name="switch_role">Перемикач</string>
+    <string name="tab">Вкладка</string>
+    <string name="template_percent">Відсотків: %1$d.</string>
+    <string name="zxing_app_name">Сканер штрих-кодів</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Нажаль, виникла помилка камери. Можливо, вам знадобиться перезавантажити пристрій.</string>
+    <string name="zxing_msg_default_status">Щоб відсканувати штрих-код, помістіть його в прямокутник видошукача.</string>
+</resources>

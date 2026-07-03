@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">បំពេញ​ស្វ័យ​ប្រវត្តិ</string>
+    <string name="close_drawer">បិទម៉ឺនុយរុករក</string>
+    <string name="default_error_message">ការបញ្ចូល​មិនត្រឹមត្រូវ</string>
+    <string name="default_popup_window_title">វិនដូ​លោតឡើង</string>
+    <string name="in_progress">កំពុងដំណើរការ</string>
+    <string name="indeterminate">បានធីកខ្លះ</string>
+    <string name="m3c_dialog">ប្រអប់</string>
+    <string name="m3c_dropdown_menu_collapsed">បាន​បង្រួម</string>
+    <string name="m3c_dropdown_menu_expanded">បាន​ពង្រីក</string>
+    <string name="m3c_dropdown_menu_toggle">បិទ/បើកម៉ឺនុយ​ធ្លាក់​ចុះ</string>
+    <string name="navigation_menu">ម៉ឺនុយរុករក</string>
+    <string name="not_selected">មិនបាន​ជ្រើសរើស</string>
+    <string name="selected">បានជ្រើសរើស</string>
+    <string name="state_empty">ទទេ</string>
+    <string name="state_off">បិទ</string>
+    <string name="state_on">បើក</string>
+    <string name="switch_role">ប៊ូតុង​បិទបើក</string>
+    <string name="tab">Tab</string>
+    <string name="template_percent">%1$d ភាគរយ។</string>
+</resources>

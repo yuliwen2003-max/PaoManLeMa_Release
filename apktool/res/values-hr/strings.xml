@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Automatsko popunjavanje</string>
+    <string name="close_drawer">Zatvaranje izbornika za navigaciju</string>
+    <string name="default_error_message">Nevažeći unos</string>
+    <string name="default_popup_window_title">Skočni prozor</string>
+    <string name="in_progress">U tijeku</string>
+    <string name="indeterminate">Djelomično potvrđeno</string>
+    <string name="m3c_dialog">Dijaloški okvir</string>
+    <string name="m3c_dropdown_menu_collapsed">Sažeto</string>
+    <string name="m3c_dropdown_menu_expanded">Prošireno</string>
+    <string name="m3c_dropdown_menu_toggle">Prekidač za padajući izbornik</string>
+    <string name="navigation_menu">Navigacijski izbornik</string>
+    <string name="not_selected">Nije odabrano</string>
+    <string name="selected">Odabrano</string>
+    <string name="state_empty">Prazno</string>
+    <string name="state_off">Isključeno</string>
+    <string name="state_on">Uključeno</string>
+    <string name="switch_role">Prekidač</string>
+    <string name="tab">Kartica</string>
+    <string name="template_percent">%1$d posto.</string>
+</resources>

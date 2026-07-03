@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Tự động điền</string>
+    <string name="close_drawer">Đóng trình đơn điều hướng</string>
+    <string name="default_error_message">Giá trị nhập không hợp lệ</string>
+    <string name="default_popup_window_title">Cửa sổ bật lên</string>
+    <string name="in_progress">Đang thực hiện</string>
+    <string name="indeterminate">Đã kiểm tra một phần</string>
+    <string name="m3c_dialog">Hộp thoại</string>
+    <string name="m3c_dropdown_menu_collapsed">Đã thu gọn</string>
+    <string name="m3c_dropdown_menu_expanded">Đã mở rộng</string>
+    <string name="m3c_dropdown_menu_toggle">Bật/tắt trình đơn thả xuống</string>
+    <string name="navigation_menu">Trình đơn điều hướng</string>
+    <string name="not_selected">Chưa chọn</string>
+    <string name="selected">Đã chọn</string>
+    <string name="state_empty">Trống</string>
+    <string name="state_off">Đang tắt</string>
+    <string name="state_on">Đang bật</string>
+    <string name="switch_role">Chuyển</string>
+    <string name="tab">Thẻ</string>
+    <string name="template_percent">%1$d%%.</string>
+</resources>

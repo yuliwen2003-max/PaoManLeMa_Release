@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Автотолтуруу функиясы</string>
+    <string name="close_drawer">Чабыттоо менюсун жабуу</string>
+    <string name="default_error_message">Киргизилген маалымат жараксыз</string>
+    <string name="default_popup_window_title">Калкыма терезе</string>
+    <string name="in_progress">Аткарылууда</string>
+    <string name="indeterminate">Жарым-жартылай текшерилди</string>
+    <string name="m3c_dialog">Диалог</string>
+    <string name="m3c_dropdown_menu_collapsed">Жыйыштырылды</string>
+    <string name="m3c_dropdown_menu_expanded">Жайылып көрсөтүлдү</string>
+    <string name="m3c_dropdown_menu_toggle">Түрүлмө менюну өчүрүү/күйгүзүү</string>
+    <string name="navigation_menu">Чабыттоо менюсу</string>
+    <string name="not_selected">Тандалган жок</string>
+    <string name="selected">Тандалды</string>
+    <string name="state_empty">Бош</string>
+    <string name="state_off">Өчүк</string>
+    <string name="state_on">Күйүк</string>
+    <string name="switch_role">Которгуч</string>
+    <string name="tab">Өтмөк</string>
+    <string name="template_percent">%1$d пайыз.</string>
+</resources>

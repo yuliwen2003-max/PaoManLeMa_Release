@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="alpha" format="float" />
+    <attr name="font" format="reference" />
+    <attr name="fontProviderAuthority" format="string" />
+    <attr name="fontProviderCerts" format="reference" />
+    <attr name="fontProviderFallbackQuery" format="string" />
+    <attr name="fontProviderFetchStrategy">
+        <enum name="blocking" value="0" />
+        <enum name="async" value="1" />
+    </attr>
+    <attr name="fontProviderFetchTimeout" format="integer">
+        <enum name="forever" value="-1" />
+    </attr>
+    <attr name="fontProviderPackage" format="string" />
+    <attr name="fontProviderQuery" format="string" />
+    <attr name="fontProviderSystemFontFamily" format="string" />
+    <attr name="fontStyle">
+        <enum name="normal" value="0" />
+        <enum name="italic" value="1" />
+    </attr>
+    <attr name="fontVariationSettings" format="string" />
+    <attr name="fontWeight" format="integer" />
+    <attr name="lStar" format="float" />
+    <attr name="nestedScrollViewStyle" format="reference" />
+    <attr name="queryPatterns" format="reference" />
+    <attr name="shortcutMatchRequired" format="boolean" />
+    <attr name="ttcIndex" format="integer" />
+    <attr name="zxing_framing_rect_height" format="dimension" />
+    <attr name="zxing_framing_rect_width" format="dimension" />
+    <attr name="zxing_possible_result_points" format="color" />
+    <attr name="zxing_preview_scaling_strategy">
+        <enum name="centerCrop" value="1" />
+        <enum name="fitCenter" value="2" />
+        <enum name="fitXY" value="3" />
+    </attr>
+    <attr name="zxing_result_view" format="color" />
+    <attr name="zxing_scanner_layout" format="reference" />
+    <attr name="zxing_use_texture_view" format="boolean" />
+    <attr name="zxing_viewfinder_laser" format="color" />
+    <attr name="zxing_viewfinder_laser_visibility" format="boolean" />
+    <attr name="zxing_viewfinder_mask" format="color" />
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Automatinis pildymas</string>
+    <string name="close_drawer">Uždaryti naršymo meniu</string>
+    <string name="default_error_message">Netinkama įvestis</string>
+    <string name="default_popup_window_title">Iššokantysis langas</string>
+    <string name="in_progress">Vyksta</string>
+    <string name="indeterminate">Iš dalies pažymėta</string>
+    <string name="m3c_dialog">Dialogo langas</string>
+    <string name="m3c_dropdown_menu_collapsed">Sutraukta</string>
+    <string name="m3c_dropdown_menu_expanded">Išskleista</string>
+    <string name="m3c_dropdown_menu_toggle">Perjungti išskleidžiamąjį meniu</string>
+    <string name="navigation_menu">Naršymo meniu</string>
+    <string name="not_selected">Nepasirinkta</string>
+    <string name="selected">Pasirinkta</string>
+    <string name="state_empty">Tuščia</string>
+    <string name="state_off">Išjungta</string>
+    <string name="state_on">Įjungta</string>
+    <string name="switch_role">Jungiklis</string>
+    <string name="tab">Tabuliavimo klavišas</string>
+    <string name="template_percent">Procentų: %1$d.</string>
+</resources>

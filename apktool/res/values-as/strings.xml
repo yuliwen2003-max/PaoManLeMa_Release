@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">স্বয়ংক্রিয়ভাৱে পূৰ হোৱাৰ সুবিধা</string>
+    <string name="close_drawer">নেভিগেশ্বন মেনু বন্ধ কৰক</string>
+    <string name="default_error_message">অমান্য ইনপুট</string>
+    <string name="default_popup_window_title">পপ-আপ ৱিণ্ড’</string>
+    <string name="in_progress">প্ৰক্ৰিয়াকৰণ কৰি থকা হৈছে</string>
+    <string name="indeterminate">আংশিকভাৱে পৰীক্ষা কৰা হৈছে</string>
+    <string name="m3c_dialog">ডায়ল’গ</string>
+    <string name="m3c_dropdown_menu_collapsed">সংকোচন কৰা আছে</string>
+    <string name="m3c_dropdown_menu_expanded">বিস্তাৰ কৰা আছে</string>
+    <string name="m3c_dropdown_menu_toggle">ড্ৰপডাউন মেনু ট’গল কৰক</string>
+    <string name="navigation_menu">নেভিগেশ্বন মেনু</string>
+    <string name="not_selected">বাছনি কৰা হোৱা নাই</string>
+    <string name="selected">বাছনি কৰা হৈছে</string>
+    <string name="state_empty">খালী</string>
+    <string name="state_off">অফ আছে</string>
+    <string name="state_on">অন আছে</string>
+    <string name="switch_role">ছুইচ</string>
+    <string name="tab">টেব</string>
+    <string name="template_percent">%1$d শতাংশ।</string>
+</resources>

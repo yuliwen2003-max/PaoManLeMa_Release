@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Automaattinen täyttö</string>
+    <string name="close_drawer">Sulje navigointivalikko</string>
+    <string name="default_error_message">Virheellinen syöte</string>
+    <string name="default_popup_window_title">Ponnahdusikkuna</string>
+    <string name="in_progress">Kesken</string>
+    <string name="indeterminate">Osittain tarkistettu</string>
+    <string name="m3c_dialog">Valintaikkuna</string>
+    <string name="m3c_dropdown_menu_collapsed">Tiivistetty</string>
+    <string name="m3c_dropdown_menu_expanded">Laajennettu</string>
+    <string name="m3c_dropdown_menu_toggle">Laita avattava valikko päälle</string>
+    <string name="navigation_menu">Navigointivalikko</string>
+    <string name="not_selected">Ei valittu</string>
+    <string name="selected">Valittu</string>
+    <string name="state_empty">Tyhjä</string>
+    <string name="state_off">Pois päältä</string>
+    <string name="state_on">Päällä</string>
+    <string name="switch_role">Vaihda</string>
+    <string name="tab">Välilehti</string>
+    <string name="template_percent">%1$d prosenttia</string>
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Valitettavasti Androidin kameran toimiinta häiriintyi. Joudut ehkä käynnistämään laitteen uudelleen.</string>
+    <string name="zxing_msg_default_status">Aseta viivakoodi neliön sisälle skannataksesi sen.</string>
+</resources>

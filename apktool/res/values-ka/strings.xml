@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">ავტომატური შევსება</string>
+    <string name="close_drawer">ნავიგაციის მენიუს დახურვა</string>
+    <string name="default_error_message">შენატანი არასწორია</string>
+    <string name="default_popup_window_title">ამომხტარი ფანჯარა</string>
+    <string name="in_progress">მუშავდება</string>
+    <string name="indeterminate">ნაწილობრივ შემოწმებულია</string>
+    <string name="m3c_dialog">დიალოგი</string>
+    <string name="m3c_dropdown_menu_collapsed">ჩაკეცილი</string>
+    <string name="m3c_dropdown_menu_expanded">გაფართოებული</string>
+    <string name="m3c_dropdown_menu_toggle">გადართეთ ჩამოსაშლელი მენიუ</string>
+    <string name="navigation_menu">ნავიგაციის მენიუ</string>
+    <string name="not_selected">არ არის არჩეული</string>
+    <string name="selected">არჩეული</string>
+    <string name="state_empty">ცარიელი</string>
+    <string name="state_off">გამორთული</string>
+    <string name="state_on">ჩართული</string>
+    <string name="switch_role">გადართვა</string>
+    <string name="tab">ჩანართი</string>
+    <string name="template_percent">%1$d პროცენტი.</string>
+</resources>

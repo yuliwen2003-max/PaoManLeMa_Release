@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">Automātiskā aizpilde</string>
+    <string name="close_drawer">Aizvērt navigācijas izvēlni</string>
+    <string name="default_error_message">Nederīga ievade</string>
+    <string name="default_popup_window_title">Uznirstošais logs</string>
+    <string name="in_progress">Notiek apstrāde</string>
+    <string name="indeterminate">Daļēji atzīmēta</string>
+    <string name="m3c_dialog">Dialoglodziņš</string>
+    <string name="m3c_dropdown_menu_collapsed">Sakļauta</string>
+    <string name="m3c_dropdown_menu_expanded">Izvērsta</string>
+    <string name="m3c_dropdown_menu_toggle">Pārslēgt nolaižamo izvēlni</string>
+    <string name="navigation_menu">Navigācijas izvēlne</string>
+    <string name="not_selected">Nav atlasīts</string>
+    <string name="selected">Atlasīts</string>
+    <string name="state_empty">Tukšs</string>
+    <string name="state_off">Izslēgts</string>
+    <string name="state_on">Ieslēgts</string>
+    <string name="switch_role">Slēdzis</string>
+    <string name="tab">Cilne</string>
+    <string name="template_percent">Procenti: %1$d.</string>
+</resources>

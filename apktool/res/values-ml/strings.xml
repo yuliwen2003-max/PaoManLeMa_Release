@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill">സ്വയമേവ പൂരിപ്പിക്കൽ</string>
+    <string name="close_drawer">നാവിഗേഷൻ മെനു അടയ്‌ക്കുക</string>
+    <string name="default_error_message">ഇൻപുട്ട് അസാധുവാണ്</string>
+    <string name="default_popup_window_title">പോപ്പ്-അപ്പ് വിൻഡോ</string>
+    <string name="in_progress">പുരോഗമിക്കുന്നു</string>
+    <string name="indeterminate">ഭാഗികമായി ചെക്ക് മാർക്കിട്ടു</string>
+    <string name="m3c_dialog">ഡയലോഗ്</string>
+    <string name="m3c_dropdown_menu_collapsed">ചുരുക്കിയത്</string>
+    <string name="m3c_dropdown_menu_expanded">വിപുലീകരിച്ചത്</string>
+    <string name="m3c_dropdown_menu_toggle">ഡ്രോപ്പ്ഡൗൺ മെനു ടോഗിൾ ചെയ്യുക</string>
+    <string name="navigation_menu">നാവിഗേഷൻ മെനു</string>
+    <string name="not_selected">തിരഞ്ഞെടുത്തില്ല</string>
+    <string name="selected">തിരഞ്ഞെടുത്തു</string>
+    <string name="state_empty">ശൂന്യം</string>
+    <string name="state_off">ഓഫാണ്</string>
+    <string name="state_on">ഓണാണ്</string>
+    <string name="switch_role">മാറുക</string>
+    <string name="tab">ടാബ്</string>
+    <string name="template_percent">%1$d ശതമാനം.</string>
+</resources>
