@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="跑满了吗 — Android 网络测速与诊断工具，免费下载最新版 APK。">
+  <title>跑满了吗 · 官方下载</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg-deep: #0a0e1a;
+      --bg-card: rgba(255, 255, 255, 0.06);
+      --border: rgba(255, 255, 255, 0.12);
+      --text: #e8ecf4;
+      --text-muted: #8b95a8;
+      --accent-cyan: #00d4ff;
+      --accent-purple: #a855f7;
+      --accent-green: #22c55e;
+      --glow-cyan: rgba(0, 212, 255, 0.35);
+      --glow-purple: rgba(168, 85, 247, 0.25);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg-deep);
+      color: var(--text);
+      min-height: 100vh;
+      overflow-x: hidden;
+      line-height: 1.7;
+    }
+
+    .bg {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      overflow: hidden;
+    }
+
+    .bg::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 80% 60% at 15% 5%, var(--glow-cyan) 0%, transparent 55%),
+        radial-gradient(ellipse 70% 50% at 85% 90%, var(--glow-purple) 0%, transparent 55%),
+        radial-gradient(ellipse 50% 40% at 50% 50%, rgba(34, 197, 94, 0.06) 0%, transparent 60%);
+    }
+
+    .grid-lines {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+      background-size: 48px 48px;
+      mask-image: radial-gradient(ellipse 70% 70% at 50% 30%, black 20%, transparent 80%);
+    }
+
+    .orb {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(80px);
+      animation: float 12s ease-in-out infinite;
+    }
+
+    .orb-1 { width: 340px; height: 340px; background: rgba(0, 212, 255, 0.14); top: -100px; left: -80px; }
+    .orb-2 { width: 260px; height: 260px; background: rgba(168, 85, 247, 0.12); bottom: 5%; right: -60px; animation-delay: -5s; }
+    .orb-3 { width: 180px; height: 180px; background: rgba(34, 197, 94, 0.1); top: 40%; left: 55%; animation-delay: -9s; }
+
+    @keyframes float {
+      0%, 100% { transform: translate(0, 0) scale(1); }
+      33% { transform: translate(18px, -24px) scale(1.04); }
+      66% { transform: translate(-12px, 18px) scale(0.96); }
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes pulse-ring {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(0, 212, 255, 0.35); }
+      50% { box-shadow: 0 0 0 12px rgba(0, 212, 255, 0); }
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .page {
+      position: relative;
+      z-index: 1;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 40px 20px 72px;
+    }
+
+    /* Top nav */
+    .top-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 36px;
+      animation: fadeUp 0.7s ease both;
+    }
+
+    .brand-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--text-muted);
+      backdrop-filter: blur(12px);
+      text-decoration: none;
+    }
+
+    .brand-pill .dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--accent-cyan), var(--accent-purple));
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 8px;
+    }
+
+    .nav-link {
+      font-size: 13px;
+      color: var(--text-muted);
+      text-decoration: none;
+      padding: 6px 12px;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      transition: color 0.2s, border-color 0.2s, background 0.2s;
+    }
+
+    .nav-link:hover {
+      color: var(--text);
+      border-color: var(--border);
+      background: var(--bg-card);
+    }
+
+    .nav-link.active {
+      color: var(--accent-cyan);
+      border-color: rgba(0, 212, 255, 0.25);
+      background: rgba(0, 212, 255, 0.08);
+    }
+
+    /* Hero */
+    .hero {
+      text-align: center;
+      margin-bottom: 32px;
+      animation: fadeUp 0.7s ease 0.05s both;
+    }
+
+    .app-icon {
+      width: 88px;
+      height: 88px;
+      margin: 0 auto 20px;
+      border-radius: 22px;
+      background: linear-gradient(145deg, #1a6fd4, #6b21a8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 12px 40px rgba(0, 212, 255, 0.25), 0 0 0 1px rgba(255,255,255,0.1);
+      animation: pulse-ring 3s ease-in-out infinite;
+    }
+
+    .app-icon svg { width: 52px; height: 52px; }
+
+    .hero h1 {
+      font-size: clamp(32px, 7vw, 44px);
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      background: linear-gradient(135deg, #fff 20%, var(--accent-cyan) 60%, var(--accent-purple));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 10px;
+    }
+
+    .hero .tagline {
+      font-size: 16px;
+      color: var(--text-muted);
+      font-weight: 300;
+      max-width: 420px;
+      margin: 0 auto;
+    }
+
+    .hero .platform {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 14px;
+      font-size: 12px;
+      color: var(--text-muted);
+      padding: 4px 12px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--border);
+    }
+
+    /* Cards */
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 28px 24px;
+      backdrop-filter: blur(20px);
+      margin-bottom: 20px;
+      animation: fadeUp 0.7s ease both;
+    }
+
+    .card:nth-of-type(1) { animation-delay: 0.1s; }
+    .card:nth-of-type(2) { animation-delay: 0.15s; }
+    .card:nth-of-type(3) { animation-delay: 0.2s; }
+    .card:nth-of-type(4) { animation-delay: 0.25s; }
+
+    /* Download card */
+    .download-card {
+      text-align: center;
+    }
+
+    .download-panel {
+      max-width: 340px;
+      margin: 0 auto;
+      padding: 22px 20px 20px;
+      border-radius: 20px;
+      background: linear-gradient(160deg, rgba(0, 212, 255, 0.1), rgba(168, 85, 247, 0.06));
+      border: 1px solid rgba(0, 212, 255, 0.22);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    }
+
+    .download-panel-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 16px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .download-panel-header .live-dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: var(--accent-green);
+      box-shadow: 0 0 8px rgba(34, 197, 94, 0.6);
+      flex-shrink: 0;
+      animation: pulse-ring 2s ease-in-out infinite;
+    }
+
+    .download-panel-header .version-label {
+      font-size: 13px;
+      color: var(--text-muted);
+      font-weight: 400;
+    }
+
+    .download-panel-header .version-name {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      background: linear-gradient(135deg, #fff 20%, var(--accent-cyan));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .download-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      padding: 15px 24px;
+      border-radius: 14px;
+      background: linear-gradient(135deg, var(--accent-cyan), #0891b2);
+      color: #0a0e1a;
+      font-size: 16px;
+      font-weight: 700;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      font-family: inherit;
+      transition: transform 0.2s, box-shadow 0.2s, opacity 0.2s;
+      box-shadow: 0 4px 20px rgba(0, 212, 255, 0.4);
+    }
+
+    .download-btn:hover:not(:disabled) {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 28px rgba(0, 212, 255, 0.5);
+    }
+
+    .download-btn:disabled {
+      opacity: 0.55;
+      cursor: wait;
+    }
+
+    .download-btn svg { width: 20px; height: 20px; fill: currentColor; flex-shrink: 0; }
+
+    .download-meta {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 14px;
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    .download-meta span {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .release-notes {
+      margin-top: 20px;
+      padding: 16px 18px;
+      border-radius: 14px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      text-align: left;
+      font-size: 14px;
+      color: var(--text-muted);
+      white-space: pre-wrap;
+      display: none;
+    }
+
+    .release-notes.visible { display: block; }
+
+    .release-notes .label {
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent-cyan);
+      margin-bottom: 8px;
+      font-weight: 500;
+    }
+
+    .secondary-actions {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .secondary-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 9px 16px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.04);
+      color: var(--text-muted);
+      font-size: 13px;
+      text-decoration: none;
+      font-family: inherit;
+      transition: color 0.2s, border-color 0.2s, background 0.2s;
+    }
+
+    .secondary-btn:hover {
+      color: var(--text);
+      border-color: rgba(0, 212, 255, 0.3);
+      background: rgba(0, 212, 255, 0.06);
+    }
+
+    .loading-state {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 0;
+    }
+
+    .loading-state.is-hidden,
+    #readyState:not(.is-visible) {
+      display: none !important;
+    }
+
+    #readyState.is-visible {
+      display: block;
+    }
+
+    .spinner {
+      width: 28px; height: 28px;
+      border: 3px solid rgba(0, 212, 255, 0.2);
+      border-top-color: var(--accent-cyan);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+
+    .error-state {
+      color: #f87171;
+      font-size: 14px;
+      margin-top: 12px;
+      display: none;
+    }
+
+    .error-state.visible { display: block; }
+
+    /* Section title */
+    .section-title {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-muted);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .section-title::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* Features */
+    .features {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+
+    @media (max-width: 520px) {
+      .features { grid-template-columns: 1fr; }
+    }
+
+    .feature {
+      padding: 16px;
+      border-radius: 16px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      transition: border-color 0.2s, background 0.2s;
+    }
+
+    .feature:hover {
+      border-color: rgba(0, 212, 255, 0.2);
+      background: rgba(0, 212, 255, 0.04);
+    }
+
+    .feature .icon { font-size: 24px; margin-bottom: 8px; }
+
+    .feature h3 {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 4px;
+      color: var(--text);
+    }
+
+    .feature p {
+      font-size: 12px;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    /* Install steps */
+    .steps {
+      list-style: none;
+      counter-reset: step;
+    }
+
+    .steps li {
+      counter-increment: step;
+      display: flex;
+      gap: 14px;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+
+    .steps li:last-child { border-bottom: none; padding-bottom: 0; }
+
+    .steps li::before {
+      content: counter(step);
+      flex-shrink: 0;
+      width: 28px; height: 28px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, rgba(0,212,255,0.15), rgba(168,85,247,0.15));
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--accent-cyan);
+    }
+
+    .steps li strong { color: var(--text); font-weight: 500; }
+
+    footer {
+      text-align: center;
+      margin-top: 36px;
+      font-size: 13px;
+      color: var(--text-muted);
+      animation: fadeUp 0.7s ease 0.3s both;
+    }
+
+    footer a {
+      color: var(--accent-cyan);
+      text-decoration: none;
+    }
+
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <div class="bg" aria-hidden="true">
+    <div class="grid-lines"></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <main class="page">
+    <nav class="top-nav">
+      <a class="brand-pill" href="./">
+        <span class="dot"></span>
+        跑满了吗
+      </a>
+      <div class="nav-links">
+        <a class="nav-link active" href="./">下载</a>
+        <a class="nav-link" href="Thanks.html">鸣谢</a>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <div class="app-icon" aria-hidden="true">
+        <svg viewBox="0 0 108 108" xmlns="http://www.w3.org/2000/svg">
+          <path fill="rgba(255,255,255,0.18)" d="M63.9,23.2 L40.8,57.3 L54.8,57.3 L50.7,80.6 L74.4,45.7 L60.5,45.7 Z"/>
+          <path fill="url(#bolt)" d="M60.3,25.3 L37.2,59.4 L51.2,59.4 L47.1,82.7 L70.8,47.8 L56.9,47.8 Z"/>
+          <defs>
+            <linearGradient id="bolt" x1="37" y1="25" x2="71" y2="83" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#FFFFFF"/>
+              <stop offset="1" stop-color="#E8E4FF"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+      <h1>跑满了吗</h1>
+      <p class="tagline">专业 Android 网络测速与诊断工具，帮你看清带宽、延迟与链路质量</p>
+      <span class="platform">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M17.6 9.48l1.84-3.18c.16-.31.04-.69-.26-.85a.637.637 0 0 0-.83.22l-1.88 3.24a11.463 11.463 0 0 0-8.94 0L5.65 5.67a.643.643 0 0 0-.87-.2c-.28.18-.37.54-.22.83L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/>
+        </svg>
+        Android · 免费下载
+      </span>
+    </header>
+
+    <section class="card download-card" id="download">
+      <div id="loadingState" class="loading-state">
+        <div class="spinner" aria-hidden="true"></div>
+        <span style="font-size:14px;color:var(--text-muted)">正在获取最新版本…</span>
+      </div>
+
+      <div id="readyState">
+        <div class="download-panel">
+          <div class="download-panel-header">
+            <span class="live-dot" aria-hidden="true"></span>
+            <span class="version-label">最新版本</span>
+            <span class="version-name" id="versionName">—</span>
+          </div>
+          <a class="download-btn" id="downloadBtn" href="#" download>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+            下载 APK
+          </a>
+          <div class="download-meta">
+            <span id="fileSize">—</span>
+            <span id="releaseDate">—</span>
+            <span id="fileName">app-release.apk</span>
+          </div>
+        </div>
+        <div class="secondary-actions">
+          <a class="secondary-btn" id="githubReleaseLink" href="https://github.com/yuliwen2003-max/PaoManLeMa_Release/releases" target="_blank" rel="noopener noreferrer">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            查看所有版本
+          </a>
+          <a class="secondary-btn" href="https://github.com/yuliwen2003-max/PaoManLeMa_Release/issues" target="_blank" rel="noopener noreferrer">
+            反馈问题
+          </a>
+        </div>
+        <div class="release-notes" id="releaseNotes">
+          <div class="label">更新说明</div>
+          <div id="releaseNotesBody"></div>
+        </div>
+      </div>
+
+      <p class="error-state" id="errorState">无法获取版本信息，请稍后重试或前往 GitHub Releases 下载。</p>
+    </section>
+
+    <section class="card">
+      <div class="section-title">核心功能</div>
+      <div class="features">
+        <div class="feature">
+          <div class="icon">⚡</div>
+          <h3>带宽测速</h3>
+          <p>多线程下载测速，精准测量上下行带宽与实时速率曲线</p>
+        </div>
+        <div class="feature">
+          <div class="icon">📶</div>
+          <h3>延迟监测</h3>
+          <p>Ping 丢包率、抖动统计，快速评估网络稳定性</p>
+        </div>
+        <div class="feature">
+          <div class="icon">🛤️</div>
+          <h3>路由追踪</h3>
+          <p>Traceroute 逐跳分析，定位链路瓶颈与异常节点</p>
+        </div>
+        <div class="feature">
+          <div class="icon">🔍</div>
+          <h3>DNS 查询</h3>
+          <p>支持自定义 DNS 服务器，解析域名记录与响应时间</p>
+        </div>
+        <div class="feature">
+          <div class="icon">📡</div>
+          <h3>iperf3 打流</h3>
+          <p>TCP/UDP 打流测试，验证局域网与远程链路吞吐能力</p>
+        </div>
+        <div class="feature">
+          <div class="icon">📱</div>
+          <h3>多网卡诊断</h3>
+          <p>Wi-Fi / 蜂窝 / VPN 多网卡状态一览，辅助复杂网络排查</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="section-title">安装说明</div>
+      <ol class="steps">
+        <li>点击上方 <strong>「下载 APK」</strong> 按钮，保存安装包到手机</li>
+        <li>打开下载的文件；若系统提示「未知来源」，请在设置中<strong>允许安装此来源的应用</strong></li>
+        <li>按提示完成安装，即可开始使用</li>
+        <li>已有旧版本的用户可直接覆盖安装，设置与数据会保留</li>
+      </ol>
+    </section>
+
+    <footer>
+      <p>跑满了吗 · 开源发布于 <a href="https://github.com/yuliwen2003-max/PaoManLeMa_Release" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+      <p style="margin-top:6px"><a href="Thanks.html">特别鸣谢</a> · 仅供合法授权网络测试使用</p>
+    </footer>
+  </main>
+
+  <script>
+    const REPO = 'yuliwen2003-max/PaoManLeMa_Release';
+    const RELEASES_URL = `https://api.github.com/repos/${REPO}/releases/latest`;
+    const FALLBACK = {
+      versionName: 'V5.0.1',
+      downloadUrl: 'https://github.com/yuliwen2003-max/PaoManLeMa_Release/releases/download/V5.0.1/app-release.apk',
+      fileName: 'app-release.apk',
+      fileSize: 2528457,
+      publishedAt: '2026-07-03T03:49:05Z',
+      releaseNotes: 'PaoManLeMa V5.0.1',
+      htmlUrl: 'https://github.com/yuliwen2003-max/PaoManLeMa_Release/releases/tag/V5.0.1'
+    };
+
+    function formatBytes(bytes) {
+      if (!bytes) return '—';
+      if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + ' KB';
+      return (bytes / (1024 * 1024)).toFixed(1) + ' MB';
+    }
+
+    function formatDate(iso) {
+      if (!iso) return '—';
+      return new Date(iso).toLocaleDateString('zh-CN', {
+        year: 'numeric', month: 'long', day: 'numeric'
+      });
+    }
+
+    function showRelease(data) {
+      document.getElementById('loadingState').classList.add('is-hidden');
+      document.getElementById('readyState').classList.add('is-visible');
+
+      document.getElementById('versionName').textContent = data.versionName;
+      document.getElementById('fileSize').textContent = '📦 ' + formatBytes(data.fileSize);
+      document.getElementById('releaseDate').textContent = '📅 ' + formatDate(data.publishedAt);
+      document.getElementById('fileName').textContent = data.fileName;
+
+      const btn = document.getElementById('downloadBtn');
+      btn.href = data.downloadUrl;
+
+      const ghLink = document.getElementById('githubReleaseLink');
+      ghLink.href = data.htmlUrl || `https://github.com/${REPO}/releases`;
+
+      if (data.releaseNotes && data.releaseNotes.trim()) {
+        document.getElementById('releaseNotesBody').textContent = data.releaseNotes.trim();
+        document.getElementById('releaseNotes').classList.add('visible');
+      }
+    }
+
+    function showError() {
+      document.getElementById('loadingState').classList.add('is-hidden');
+      document.getElementById('errorState').classList.add('visible');
+      showRelease(FALLBACK);
+    }
+
+    async function loadLatestRelease() {
+      try {
+        const res = await fetch(RELEASES_URL, {
+          headers: { Accept: 'application/vnd.github+json' }
+        });
+        if (!res.ok) throw new Error('API error');
+        const release = await res.json();
+        const apk = (release.assets || []).find(a => /\.apk$/i.test(a.name));
+        if (!apk) throw new Error('No APK');
+
+        showRelease({
+          versionName: release.name || release.tag_name,
+          downloadUrl: apk.browser_download_url,
+          fileName: apk.name,
+          fileSize: apk.size,
+          publishedAt: release.published_at,
+          releaseNotes: release.body,
+          htmlUrl: release.html_url
+        });
+      } catch {
+        showError();
+      }
+    }
+
+    loadLatestRelease();
+  </script>
+</body>
+</html>

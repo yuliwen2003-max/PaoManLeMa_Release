@@ -1,8 +1,15 @@
-name: Deploy Thanks Page
+name: Deploy Pages
 
 on:
   push:
-    branches: [gh-pages, main]
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'Release.html'
+      - 'Thanks.html'
+      - 'assets/**'
+      - '.nojekyll'
+      - '.github/workflows/deploy-pages.yml'
   workflow_dispatch:
 
 permissions:
@@ -17,14 +24,9 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Checkout gh-pages
+      - name: Checkout
         uses: actions/checkout@v4
-        with:
-          ref: gh-pages
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
