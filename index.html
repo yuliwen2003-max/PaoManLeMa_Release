@@ -362,6 +362,15 @@
       padding: 12px 0;
     }
 
+    .loading-state.is-hidden,
+    #readyState:not(.is-visible) {
+      display: none !important;
+    }
+
+    #readyState.is-visible {
+      display: block;
+    }
+
     .spinner {
       width: 28px; height: 28px;
       border: 3px solid rgba(0, 212, 255, 0.2);
@@ -539,7 +548,7 @@
         <span style="font-size:14px;color:var(--text-muted)">正在获取最新版本…</span>
       </div>
 
-      <div id="readyState" hidden>
+      <div id="readyState">
         <div class="version-badge">
           <span class="live-dot"></span>
           最新版本 <span id="versionName">—</span>
@@ -650,8 +659,8 @@
     }
 
     function showRelease(data) {
-      document.getElementById('loadingState').hidden = true;
-      document.getElementById('readyState').hidden = false;
+      document.getElementById('loadingState').classList.add('is-hidden');
+      document.getElementById('readyState').classList.add('is-visible');
 
       document.getElementById('versionName').textContent = data.versionName;
       document.getElementById('fileSize').textContent = '📦 ' + formatBytes(data.fileSize);
@@ -671,7 +680,7 @@
     }
 
     function showError() {
-      document.getElementById('loadingState').hidden = true;
+      document.getElementById('loadingState').classList.add('is-hidden');
       document.getElementById('errorState').classList.add('visible');
       showRelease(FALLBACK);
     }
