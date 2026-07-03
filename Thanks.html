@@ -674,6 +674,10 @@
   <div class="toast" id="toast" role="status" aria-live="polite">微信号已复制 ✓</div>
 
   <script>
+    // 兼容旧版缓存页面，确保合掌图标被移除
+    document.querySelector('.hero-icon')?.remove();
+  </script>
+  <script>
     const WECHAT_ID = 'YKTX16888';
 
     function copyWechatId() {
