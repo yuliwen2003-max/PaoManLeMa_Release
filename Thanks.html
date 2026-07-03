@@ -128,6 +128,40 @@
       animation: pulse 2s ease-in-out infinite;
     }
 
+    .top-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 28px;
+      animation: fadeUp 0.8s ease both;
+    }
+
+    .top-nav .app-badge { margin-bottom: 0; }
+
+    .nav-links { display: flex; gap: 8px; }
+
+    .nav-link {
+      font-size: 13px;
+      color: var(--text-muted);
+      text-decoration: none;
+      padding: 6px 12px;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      transition: color 0.2s, border-color 0.2s, background 0.2s;
+    }
+
+    .nav-link:hover {
+      color: var(--text);
+      border-color: var(--border);
+      background: var(--bg-card);
+    }
+
+    .nav-link.active {
+      color: var(--accent-cyan);
+      border-color: rgba(0, 212, 255, 0.25);
+      background: rgba(0, 212, 255, 0.08);
+    }
+
     @keyframes pulse {
       0%, 100% { opacity: 1; transform: scale(1); }
       50% { opacity: 0.6; transform: scale(0.85); }
@@ -528,10 +562,16 @@
   </div>
 
   <main class="page">
-    <div class="app-badge">
-      <span class="dot"></span>
-      跑满了吗 · 特别鸣谢
-    </div>
+    <nav class="top-nav">
+      <div class="app-badge">
+        <span class="dot"></span>
+        跑满了吗 · 特别鸣谢
+      </div>
+      <div class="nav-links">
+        <a class="nav-link" href="./">下载</a>
+        <a class="nav-link active" href="Thanks.html">鸣谢</a>
+      </div>
+    </nav>
 
     <header class="hero">
       <span class="hero-icon" aria-hidden="true">🙏</span>
